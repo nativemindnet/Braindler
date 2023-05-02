@@ -35,7 +35,8 @@ free interaction and makes the AI assistant more versatile and convenient to use
 - 🔍 **Depth-First Search:** Explore deeper branches in the search tree for more comprehensive solutions.
 - 🌐 **Breadth-First Search:** Investigate a wide range of possibilities to identify the best solution.
 - 🌟 **Multivariate Approach:** Explore multiple paths and options for versatile problem-solving.
-- 🎭 **Personality Types:** Customize AI behavior through prompts for various personality styles.
+- 👥 **Virtual AI-Team Management:** RoboGPT create and manage virtual AI-team members of RoboGPT, each with their own set of goals and tasks.
+- 🎭 **Personality Types:** Customize AI behavior through prompts for various personality styles and skills assets.
 
 ### Customization and Interaction
 - 📩 **Incoming Events:** Respond to time-based triggers, incoming messages from different platforms, and other external inputs.
