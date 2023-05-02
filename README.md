@@ -13,7 +13,7 @@ Experience the future of AI with RoboGPT, designed to help users efficiently tac
 - 👥 **Multi-User Mode:** Support multi-user mode for group collaboration and management. Users can assign tasks, communicate with each other, and monitor progress together.
 - 💬 **Communicate with Individuals and Groups:** Seamlessly engage with people and organizations
 free interaction and makes the AI assistant more versatile and convenient to use.
-- 🤖 **Supported Models:**
+- 📚 **Supported Models:**
   - Supports API for GPT3 and GPT4
   - Support local-based (CPU or GPU): TrueGPT (with RoboScript support), ALPACA, DOLLY, VICUNA, STABLELM
 - 🔊 **Text-to-Speech:** Extend RoboGPT's capabilities with text-to-speech functionality for voice output, providing a more immersive user experience.
@@ -29,7 +29,8 @@ free interaction and makes the AI assistant more versatile and convenient to use
 - 💬 **Seamless Goal and Task Modification:** AI and operators can update goals and tasks through natural conversation.
 
 ### Search and Problem Solving
-- 🔁 **Recursion:** Breaking down complex tasks into simpler sub-tasks for efficient execution.
+- 🕸️ **Recursion:** Breaking down complex tasks into simpler sub-tasks for efficient execution.
+- 🔄 **Looping Mechanisms:** RoboGPT can perform repetitive tasks through looping mechanisms, allowing it to complete tasks efficiently and accurately.
 - 🔍 **Depth-First Search:** Explore deeper branches in the search tree for more comprehensive solutions.
 - 🌐 **Breadth-First Search:** Investigate a wide range of possibilities to identify the best solution.
 - 🌟 **Multivariate Approach:** Explore multiple paths and options for versatile problem-solving.
