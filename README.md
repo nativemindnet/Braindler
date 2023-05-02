@@ -12,6 +12,34 @@ Experience the future of AI with RoboGPT, designed to help users efficiently tac
 - 💬 Communicate with Individuals and Groups: Seamlessly engage with people and organizations
 - 🖥️ Support for Alternative GPT Engines: Local and API-based (TrueGPT with RoboScript support, etc.)
 
+## Cognitive Mechanisms of RoboGPT
+
+RoboGPT's advanced thinking mechanisms are designed to deliver a powerful and dynamic AI experience. Key features include:
+
+- 🧠 **Memory Registers:** Storage for sensitive information such as login credentials, passwords, and API keys.
+- 🎯 **Dynamic Goal and Task Registers:** Adapt to changing objectives and assignments in real-time.
+- 💬 **Seamless Goal and Task Modification:** AI and operators can update goals and tasks through natural conversation.
+- 🔁 **Recursion:** Breaking down complex tasks into simpler sub-tasks for efficient execution.
+- 🔍 **Depth-First Search:** Explore deeper branches in the search tree for more comprehensive solutions.
+- 🌐 **Breadth-First Search:** Investigate a wide range of possibilities to identify the best solution.
+- 🌟 **Multivariate Approach:** Explore multiple paths and options for versatile problem-solving.
+- 🎭 **Personality Types:** Customize AI behavior through prompts for various personality styles.
+- 📩 **Incoming Events:** Respond to time-based triggers, incoming messages from different platforms, and other external inputs.
+
+## Supported Platforms and Integrations
+
+RoboGPT offers seamless integration with a wide range of platforms and services, including:
+
+- 📱 Telegram
+- 💬 WhatsApp
+- 🌐 LINE
+- 🇨🇳 WeChat
+- 📧 Email
+- 👥 Facebook
+- 🐦 Twitter
+- 🐙 GitHub
+
+Additionally, you can create custom integrations using our plugin system to connect RoboGPT with your preferred platforms and tools.
 ## RoboGPT vs ChatGPT
 
 RoboGPT builds upon the foundations of ChatGPT while offering several key enhancements:
