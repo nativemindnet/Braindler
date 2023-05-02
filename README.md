@@ -8,7 +8,7 @@ Active Internet Engagement capabilities go beyond traditional chat interfaces by
 Experience the future of AI with RoboGPT, designed to help users efficiently tackle tasks, achieve their goals, and enhance human communication through active online engagement.
 
 ## 🚀 Features
-- ⚡ **Internet-based Actions:** Execute tasks and interact with online resources effectively
+- ⚡ **Internet-based Actions:** Execute tasks and interact with online resources.
 - 🌐 **Web-Based Search:** Utilize web-based resources to gather information and identify solutions.
 - 👥 **Multi-User Mode:** Support multi-user mode for group collaboration and management. Users can assign tasks, communicate with each other, and monitor progress together.
 - 💬 **Communicate with Individuals and Groups:** Seamlessly engage with people and organizations
@@ -19,6 +19,7 @@ free interaction and makes the AI assistant more versatile and convenient to use
 - 🔊 **Text-to-Speech:** Extend RoboGPT's capabilities with text-to-speech functionality for voice output, providing a more immersive user experience.
 - 🎤 **Speech-to-Text:** Integrate speech recognition technology to allow users to communicate with RoboGPT using their voice. This feature enables hands-
 - 🔌 **Customizable Plugin System:** Create and integrate your own plugins to expand RoboGPT's capabilities and tailor its functionality to your specific needs.
+- 🌍 Multilingual Support: RoboGPT can support multiple languages, allowing users to communicate with it in their preferred language. 
 
 ## 🧠 Cognitive Mechanisms of RoboGPT
 
