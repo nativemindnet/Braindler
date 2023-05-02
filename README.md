@@ -20,3 +20,19 @@ RoboGPT builds upon the foundations of ChatGPT while offering several key enhanc
 * Enhanced Problem Solving: By leveraging its internet connectivity, RoboGPT can perform more complex tasks and provide more accurate information to users, leading to better problem-solving capabilities.
 * Goal Achievement: RoboGPT is designed to help users achieve their goals by not only providing relevant information but also by actively assisting in task execution.
 These differences make RoboGPT a more versatile and powerful AI assistant compared to ChatGPT, enhancing the user experience and expanding the range of tasks it can help users accomplish.
+
+## Request for Help
+
+Want to get involved?
+
+We are looking for contributors in various areas:
+
+- 🚀 **Command Expansion:** We'd love to add more commands to the project, enhancing RoboGPT's capabilities.
+- 🎨 **Frontend Development:** Help us improve the user interface and overall experience.
+- 🤝 **Integration with other LM models and APIS ** Collaborate with us to integrate other LM models into RoboGPT .
+
+
+We especially welcome newcomers and enthusiasts, as they can bring fresh ideas to the project.
+We will do our best to provide support and guidance along the way.
+
+If you have any ideas or suggestions, don't hesitate to reach out to us on our [Discord server](https://discord.gg/robogpt)!
