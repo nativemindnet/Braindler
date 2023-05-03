@@ -128,7 +128,7 @@ RoboGPT offers a wide range of applications and use cases tailored for different
 ### How to try
 - 🌐 Browser Integration: Use the RoboGPT web browser version, designed to make it easy for non-programmers to create and use their own AI agents.
 - 📱 Messaging Platforms: RoboGPT is available on popular messaging platforms, including:
-  - Telegram Bot [https://t.me/roboGPT_telegrambot] @roboGPT_telegrambot
+  - Telegram Bot [@roboGPT_telegrambot](https://t.me/roboGPT_telegrambot)
   - Line Bot
   - WhatsApp Bot
   - WeChat Bot
