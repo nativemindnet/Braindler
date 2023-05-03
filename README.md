@@ -149,5 +149,5 @@ We need assistance in the following areas:
 
 We welcome newcomers, enthusiasts, and experienced professionals alike, as everyone can bring fresh ideas and valuable perspectives to the project. We are committed to providing support and guidance along the way.
 
-If you have any ideas or suggestions, or if you are interested in contributing to the project, please don't hesitate to reach out to us on our [Discord server](https://discord.gg/robogpt)!
+If you have any ideas or suggestions, or if you are interested in contributing to the project, please don't hesitate to reach out to us on our [Discord server](https://discord.gg/UcZra8Ay)!
 
