@@ -44,10 +44,10 @@ free interaction and makes the AI assistant more versatile and convenient to use
 - 📣 **Queue Prompts:** Prompt operator when action is required instead of waiting indefinitely.
 
 
-## Supported Platforms and Integrations
+## Supported Actions for Platforms
 
 RoboGPT offers seamless integration with a wide range of platforms and services, including:
-- Local(sandbox) / Remote computer management
+- Local(sandbox) / Remote(SSH) computer management
 - 📱 Telegram
 - 💬 WhatsApp
 - 🌐 LINE
@@ -57,7 +57,15 @@ RoboGPT offers seamless integration with a wide range of platforms and services,
 - 🐦 Twitter
 - 🐙 GitHub
 - ...Additionally, you can create custom integrations using our plugin system to connect RoboGPT with your preferred platforms and tools.
-  
+
+## How to try
+- 🌐 Browser Integration: Use the RoboGPT web browser version, designed to make it easy for non-programmers to create and use their own AI agents.
+- 📱 Messaging Platforms: RoboGPT is available on popular messaging platforms, including:
+  - Telegram Bot [@roboGPT_telegrambot](https://t.me/roboGPT_telegrambot)
+  - Line Bot [@127mydng](https://line.me/R/ti/p/@127mydng)
+  - WhatsApp Bot
+  - WeChat Bot
+
 <details>
 <summary><h3>RoboGPT vs ChatGPT</h3></summary>
 RoboGPT builds upon the foundations of ChatGPT while offering several key enhancements:
@@ -123,15 +131,6 @@ RoboGPT offers a wide range of applications and use cases tailored for different
 - 🤖 Non-Player Characters (NPCs): Use RoboGPT to create intelligent NPCs that can interact with players and adapt to changing game conditions.
 - 🌱 Game Simulation: Use RoboGPT to simulate game scenarios and test different game mechanics and strategies.
 </details>
-
-
-## How to try
-- 🌐 Browser Integration: Use the RoboGPT web browser version, designed to make it easy for non-programmers to create and use their own AI agents.
-- 📱 Messaging Platforms: RoboGPT is available on popular messaging platforms, including:
-  - Telegram Bot [@roboGPT_telegrambot](https://t.me/roboGPT_telegrambot)
-  - Line Bot [@127mydng](https://line.me/R/ti/p/@127mydng)
-  - WhatsApp Bot
-  - WeChat Bot
 
 ## Request for Help
 We are actively seeking contributors from diverse backgrounds and skill sets to help us create a powerful and user-friendly AI assistant. If you are passionate about AI and want to make a positive impact, consider joining our team!
