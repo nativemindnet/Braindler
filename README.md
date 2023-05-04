@@ -15,7 +15,7 @@ Experience the future of AI with RoboGPT, designed to help users efficiently tac
 free interaction and makes the AI assistant more versatile and convenient to use.
 - 📚 **Supported Models:**
   - Supports API for GPT3 and GPT4
-  - Support local-based (CPU or GPU): TrueGPT (with RoboScript support), ALPACA, DOLLY, VICUNA, STABLELM
+  - Support local-based models(CPU or [GPU](https://github.com/fulldome-pro/RoboGPT-GPU-LM-Endpoint)): [TrueGPT](https://github.com/truegpt/TrueGPT) (with RoboScript support), ALPACA, DOLLY, VICUNA, STABLELM
 - 🔊 **Text-to-Speech:** Extend RoboGPT's capabilities with text-to-speech functionality for voice output, providing a more immersive user experience.
 - 🎤 **Speech-to-Text:** Integrate speech recognition technology to allow users to communicate with RoboGPT using their voice. This feature enables hands-
 - 🔌 **Customizable Plugin System:** Create and integrate your own plugins to expand RoboGPT's capabilities and tailor its functionality to your specific needs.
