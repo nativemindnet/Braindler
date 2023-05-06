@@ -62,7 +62,7 @@ Braindler offers seamless integration with a wide range of platforms and service
 ## How to try
 - 🌐 Browser Integration: Use the Braindler web browser version, designed to make it easy for non-programmers to create and use their own AI agents.
 - 📱 Messaging Platforms: Braindler is available on popular messaging platforms, including:
-  - Telegram Bot [@Braindler_telegrambot](https://t.me/Braindler_telegrambot)
+  - Telegram Bot [@Braindler_bot](https://t.me/Braindler_bot)
   - Line Bot [@127mydng](https://line.me/R/ti/p/@127mydng)
   - WhatsApp Bot
   - WeChat Bot
