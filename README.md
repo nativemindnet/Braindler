@@ -1,6 +1,7 @@
 # Braindler: Internet-Enabled AI for Real-World Tasks, Goal Achievement, and Human Communication
 
-Braindler, when given a goal in natural language, attempts to achieve it by decomposing it into sub-tasks and using the internet and other tools while applying recursion, depth-first search, and breadth-first search. Within the recursion process, separate roles can be created, resulting in a team of specialized virtual professionals working together. Braindler can utilize not only OpenAI's GPT-4 or GPT-3.5 API but also TrueGPT, which is trained to produce output in RoboScript format, enabling interactive capabilities beyond conventional text responses.
+![Braindler](/assets/braindler.jpeg)
+<br/>Braindler, when given a goal in natural language, attempts to achieve it by decomposing it into sub-tasks and using the internet and other tools while applying recursion, depth-first search, and breadth-first search. Within the recursion process, separate roles can be created, resulting in a team of specialized virtual professionals working together. Braindler can utilize not only OpenAI's GPT-4 or GPT-3.5 API but also TrueGPT, which is trained to produce output in RoboScript format, enabling interactive capabilities beyond conventional text responses.
 
 
 Braindler is the next-generation upgrade to the GPT series, harnessing the power of the internet for improved interactions, problem-solving, and communication with people. This user-friendly AI can access websites, gather information, complete tasks, and seamlessly engage with users in a chat interface.
