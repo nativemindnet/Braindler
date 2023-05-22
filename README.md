@@ -1,4 +1,7 @@
 # Braindler: Internet-Enabled AI for Real-World Tasks, Goal Achievement, and Human Communication
+[![Official Website](https://img.shields.io/badge/Official%20Website-braindler.com-blue?style=flat&logo=world&logoColor=white)](https://braindler.com)
+[![Twitter Follow](https://img.shields.io/twitter/follow/braindler?style=social)](https://twitter.com/Braindler)
+[![Instagram Follow](https://img.shields.io/instagram/follow/braindler?style=social)](https://instagram.com/Braindler)
 
 ![Braindler](/assets/braindler.png)
 <br/>Braindler, when given a goal in natural language, attempts to achieve it by decomposing it into sub-tasks and using the internet and other tools while applying recursion, depth-first search, and breadth-first search. Within the recursion process, separate roles can be created, resulting in a team of specialized virtual professionals working together. Braindler can utilize not only OpenAI's GPT-4 or GPT-3.5 API but also TrueGPT, which is trained to produce output in RoboScript format, enabling interactive capabilities beyond conventional text responses.
