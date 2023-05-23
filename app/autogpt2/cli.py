@@ -27,6 +27,7 @@ def main(
 
     Start an Auto-GPT assistant.
     """
+    print("OK!!!")
     # Put imports inside function to avoid importing everything when starting the CLI
     import logging
 

@@ -1,10 +1,10 @@
-from server.eventsG import eventsG
+from app.server.eventsG import eventsG
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import os
 from dotenv import load_dotenv
-
+from autogpt.cli import main
 
 
 class JRPCRequestHandler(BaseHTTPRequestHandler):
@@ -37,6 +37,8 @@ class JRPCRequestHandler(BaseHTTPRequestHandler):
 def serve():
     load_dotenv(verbose=True)
     PY_PORT=os.getenv("PY_PORT", "11081")
+
+    main()
 
     hserver = HTTPServer(('localhost', int(PY_PORT)), JRPCRequestHandler)
     print(f"Starting jrpc server on http://localhost:{PY_PORT}")

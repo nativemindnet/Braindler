@@ -1,7 +1,6 @@
 import queue
 import threading
 import time
-import server.cli2
 
 
 threads={}
