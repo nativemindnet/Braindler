@@ -1,4 +1,6 @@
 """Main script for the autogpt package."""
+
+#BRAINDLER
 import queue
 
 
@@ -15,6 +17,7 @@ def main(
     browser_name: str,
     allow_downloads: bool,
     skip_news: bool,
+    #BRAINDLER
     cid: str,
     goals,
     queue: queue.Queue,
@@ -69,12 +72,16 @@ def main(
         full_message_history = []
         next_action_count = 0
         # Make a constant:
+
+        # BRAINDLER Multilanguage
         triggering_prompt = (
             "Determine which next command to use, and respond using the"
             " format specified above:"
         )
         # Initialize memory and make sure it is empty.
         # this is particularly important for indexing and referencing pinecone memory
+        
+        #BRAINDLER
         cfg.memory_index=f"memory_index_{cid}"
 
         memory = get_memory(cfg, init=True)
@@ -91,6 +98,8 @@ def main(
             next_action_count=next_action_count,
             system_prompt=system_prompt,
             triggering_prompt=triggering_prompt,
+            
+            #BRAINDLER
             cid=cid,
             goals=goals,
             queue=queue,

@@ -1,4 +1,4 @@
-from server.eventsG import eventsG
+from server.queues import startWork, otherCmd
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
@@ -24,9 +24,9 @@ class JRPCRequestHandler(BaseHTTPRequestHandler):
         print(cid,args)
 
         if command == "startWork":
-            response=eventsG[command](command,cid,args)
+            response=startWork(command,cid,args)
         else:
-            response=eventsG["other"](command,cid,args)
+            response=otherCmd(command,cid,args)
 
         self.send_response(200)
         self.send_header('Content-type', 'application/json')

@@ -1,4 +1,4 @@
-from server.queues import startWork, otherCmd
+from server.eventsG import eventsG
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
@@ -24,9 +24,9 @@ class JRPCRequestHandler(BaseHTTPRequestHandler):
         print(cid,args)
 
         if command == "startWork":
-            response=startWork(command,cid,args)
+            response=eventsG[command](command,cid,args)
         else:
-            response=otherCmd(command,cid,args)
+            response=eventsG["other"](command,cid,args)
 
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
@@ -34,11 +34,12 @@ class JRPCRequestHandler(BaseHTTPRequestHandler):
         self.wfile.write(str(response).encode('utf-8'))
 
 
-load_dotenv(verbose=True)
-PY_PORT=os.getenv("PY_PORT", "11081")
+def serve():
+    load_dotenv(verbose=True)
+    PY_PORT=os.getenv("PY_PORT", "11081")
 
-hserver = HTTPServer(('localhost', int(PY_PORT)), JRPCRequestHandler)
-print(f"Starting jrpc server on http://localhost:{PY_PORT}")
+    hserver = HTTPServer(('localhost', int(PY_PORT)), JRPCRequestHandler)
+    print(f"Starting jrpc server on http://localhost:{PY_PORT}")
 
-hserver.serve_forever()
+    hserver.serve_forever()
 
