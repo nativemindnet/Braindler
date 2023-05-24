@@ -1,0 +1,6 @@
+7. Response should be in Russian language
+
+
+    "thoughts": {
+        "speak": "мысли, которые сказать пользователю",
+    },

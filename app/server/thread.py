@@ -1,11 +1,26 @@
+from autogpt.main import run_auto_gpt
+from autogpt.setup import generate_aiconfig_automatic
+from autogpt.config.ai_config import AIConfig
+
 import threading
 
-local_data = threading.local()
+
 
 def startThread(cid,args,queue):
+    local_data = threading.local()
+
+    local_data.cid = cid
+    local_data.args = args
+    local_data.goals = args["goals"]
+    #local_data.language = args["language"]    
+    local_data.queue = queue
+
+
     continuous = False
     continuous_limit = 0
-    ai_settings = ""
+    ai_settings = f"sessions/ai_settings_{cid}.yaml"
+    #CFG.ai_settings_file = f"sessions/ai_settings_{cid}.yaml"
+    prompt_settings = "settings/prompt_settings_en.yaml"
     skip_reprompt = True
     speak = False
     debug = True
@@ -15,11 +30,34 @@ def startThread(cid,args,queue):
     browser_name = ""
     allow_downloads = False
     skip_news = True
+    workspace_directory = f"sessions/workspace_{cid}"
+    install_plugin_deps = ""
 
-    #goals = args["goals"]
+    # TODO: Load from ai_setttings_{lang}
 
-    local_data.cid = cid;
-    local_data.goals = args["goals"]
-    local_data.queue = queue
+    #(ai_name, ai_role, ai_goals, api_budget)
+    config=AIConfig("Braindler", "a large language model trained by NativeMind. I want you to act as an AI for autonomous automatic solving tasks.",args["goals"],0) 
+    
+    #config=generate_aiconfig_automatic(args["goals"][0])
+    config.save(ai_settings) #CFG.ai_settings_file)
 
-    autogpt.cli.main(continuous, continuous_limit, ai_settings,skip_reprompt,speak,debug,gpt3only,gpt4only,memory_type,browser_name,allow_downloads,skip_news)) #,cid,goals, queues[cid]
+
+    run_auto_gpt(
+        continuous,
+        continuous_limit,
+        ai_settings,
+        prompt_settings,
+        skip_reprompt,
+        speak,
+        debug,
+        gpt3only,
+        gpt4only,
+        memory_type,
+        browser_name,
+        allow_downloads,
+        skip_news,
+        workspace_directory,
+        install_plugin_deps,
+    )
+
+    #main(continuous, continuous_limit, ai_settings,skip_reprompt,speak,debug,gpt3only,gpt4only,memory_type,browser_name,allow_downloads,skip_news) #,cid,goals, queues[cid]

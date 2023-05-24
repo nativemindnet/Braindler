@@ -1,0 +1,14 @@
+[
+    {
+        "role": "user",
+        "content": "Determine which next command to use, and respond using the format specified above:"
+    },
+    {
+        "role": "assistant",
+        "content": "{\n    \"thoughts\": {\n        \"text\": \"I need to start by researching fulldome.pro dome theaters to understand their features and benefits. I can use the google command to search for information.\",\n        \"reasoning\": \"Researching the product will help me understand its features and benefits, which will be useful in creating a sales pitch.\",\n        \"plan\": \"- Use the google command to search for information on fulldome.pro dome theaters\\n- Analyze the information gathered to understand the product's features and benefits\\n- Use the information to create a sales pitch\",\n        \"criticism\": \"I need to ensure that I am gathering information from reliable sources and that I am not spending too much time on research.\",\n        \"speak\": \"I will use the google command to search for information on fulldome.pro dome theaters.\"\n    },\n    \"command\": {\n        \"name\": \"google\",\n        \"args\": {\n            \"query\": \"fulldome.pro dome theaters\"\n        }\n    }\n}"
+    },
+    {
+        "role": "system",
+        "content": "Command google returned: [\"https://fulldome.pro/domes/\", \"https://www.facebook.com/fulldomepro/\", \"https://fulldome.pro/blog/revolutionary-projection-calibration-technology-for-360-dome-theaters/\", \"https://www.fddb.org/fulldome-shows/solar-system-a-wonderful-journey/\", \"https://fulldome.pro/what-is/\", \"https://www.redraion.com/interview-with-yana-fedorova-from-fulldome-pro/\", \"https://fulldome.pro/\", \"https://www.linkedin.com/company/fulldome-pro\"]"
+    }
+]

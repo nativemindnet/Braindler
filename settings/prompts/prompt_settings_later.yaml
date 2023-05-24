@@ -1,0 +1,18 @@
+Commands:
+1. Task Complete (Shutdown): "task_complete", args: "reason": "<reason>"
+2. Write to file: "write_to_file", args: "file": "<file>", "text": "<text>"
+3. Read file: "read_file", args: "file": "<file>"
+4. Append to file: "append_to_file", args: "file": "<file>", "text": "<text>"
+5. get_text_summary: Get text summary, args: "url": "<url>", "question": "<question>"
+6. get_hyperlinks: Get hyperlinks on site, args: "url": "<url>"
+7. google: Google Search, args: "query": "<query>"
+8. browse_website: Browse Website, args: "url": "<url>", "question": "<what_you_want_to_find_on_website>"
+9. Do Nothing: "do_nothing", args:
+
+
+
+Performance Evaluation:
+5. If you cannot think of a valid command to perform start or message an agent to determine the next command.
+7. Response hash values should be same that language of user (only one exception - command name should be always English)
+8. Use commands in priority (lower number is much-much better)
+

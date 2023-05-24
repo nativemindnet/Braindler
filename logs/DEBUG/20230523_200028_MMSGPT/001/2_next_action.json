@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to start by researching fulldome.pro dome theaters to understand their features and benefits. I can use the google command to search for information.",
+        "reasoning": "Researching the product will help me understand its features and benefits, which will be useful in creating a sales pitch.",
+        "plan": "- Use the google command to search for information on fulldome.pro dome theaters\n- Analyze the information gathered to understand the product's features and benefits\n- Use the information to create a sales pitch",
+        "criticism": "I need to ensure that I am gathering information from reliable sources and that I am not spending too much time on research.",
+        "speak": "I will use the google command to search for information on fulldome.pro dome theaters."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "fulldome.pro dome theaters"
+        }
+    }
+}

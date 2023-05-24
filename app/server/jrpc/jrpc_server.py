@@ -7,9 +7,6 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import os
 from dotenv import load_dotenv
-from autogpt.cli import main
-
-print(sys.modules['autogpt.cli'])
 
 class JRPCRequestHandler(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -41,10 +38,6 @@ class JRPCRequestHandler(BaseHTTPRequestHandler):
 def serve():
     load_dotenv(verbose=True)
     PY_PORT=os.getenv("PY_PORT", "11081")
-
-    print(sys.modules['autogpt.cli'])
-
-    main()
 
     hserver = HTTPServer(('localhost', int(PY_PORT)), JRPCRequestHandler)
     print(f"Starting jrpc server on http://localhost:{PY_PORT}")

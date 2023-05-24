@@ -1,0 +1,15 @@
+{
+    "thoughts": {
+        "text": "I need to start by researching fulldome.pro dome theaters to understand their features and benefits. I can then use this information to develop a sales strategy.",
+        "reasoning": "Researching the product will help me understand its unique selling points and how it compares to other products in the market. This will enable me to develop a sales strategy that highlights its strengths and addresses any weaknesses.",
+        "plan": "- Research fulldome.pro dome theaters to understand their features and benefits\n- Develop a sales strategy that highlights its strengths and addresses any weaknesses",
+        "criticism": "I need to ensure that my research is thorough and that I am not overlooking any important features or benefits of the product. I also need to be careful not to oversell the product and make unrealistic promises to potential customers.",
+        "speak": "I will start by researching fulldome.pro dome theaters to understand their features and benefits. This will help me develop a sales strategy that highlights its strengths and addresses any weaknesses."
+    },
+    "command": {
+        "name": "google",
+        "args": {
+            "query": "fulldome.pro dome theaters features and benefits"
+        }
+    }
+}
