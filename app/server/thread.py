@@ -19,7 +19,6 @@ def startThread(cid,args,queue):
     continuous = False
     continuous_limit = 0
     ai_settings = f"sessions/ai_settings_{cid}.yaml"
-    #CFG.ai_settings_file = f"sessions/ai_settings_{cid}.yaml"
     prompt_settings = "settings/prompt_settings_en.yaml"
     skip_reprompt = True
     speak = False
@@ -36,8 +35,9 @@ def startThread(cid,args,queue):
     # TODO: Load from ai_setttings_{lang}
 
     #(ai_name, ai_role, ai_goals, api_budget)
-    config=AIConfig("Braindler", "a large language model trained by NativeMind. I want you to act as an AI for autonomous automatic solving tasks.",args["goals"],0) 
+    args["goals"][0]=args["goals"][0]+"\n"
     
+    config=AIConfig("Braindler", "a large language model trained by NativeMind. I want you to act as an AI for autonomous automatic solving tasks.",args["goals"],0.0) 
     #config=generate_aiconfig_automatic(args["goals"][0])
     config.save(ai_settings) #CFG.ai_settings_file)
 
@@ -59,5 +59,3 @@ def startThread(cid,args,queue):
         workspace_directory,
         install_plugin_deps,
     )
-
-    #main(continuous, continuous_limit, ai_settings,skip_reprompt,speak,debug,gpt3only,gpt4only,memory_type,browser_name,allow_downloads,skip_news) #,cid,goals, queues[cid]

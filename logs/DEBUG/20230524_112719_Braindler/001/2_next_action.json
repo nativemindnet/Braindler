@@ -1,0 +1,13 @@
+{
+    "thoughts": {
+        "text": "I need more information about what task to perform next. Can you provide me with a task?",
+        "reasoning": "I cannot determine the next command to use without knowing what task to perform.",
+        "plan": "- Wait for user input on what task to perform next.",
+        "criticism": "I need to be more proactive in determining what task to perform next.",
+        "speak": "What task would you like me to perform?"
+    },
+    "command": {
+        "name": "",
+        "args": {}
+    }
+}

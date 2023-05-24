@@ -1,4 +1,5 @@
 .env
 app/.env
-plugins/
+plugins/*
 vendor/
+sessions/*
