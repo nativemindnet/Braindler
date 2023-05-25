@@ -1,5 +1,6 @@
 import sys
 
+#from autogpt.cli import main #FOR TESTING
 
 from app.server.eventsG import eventsG
 
@@ -41,6 +42,9 @@ def serve():
 
     hserver = HTTPServer(('localhost', int(PY_PORT)), JRPCRequestHandler)
     print(f"Starting jrpc server on http://localhost:{PY_PORT}")
+
+    #main() #FOR TESTING
+    #print(sys.modules['app.diff.llm.llm_utils'].create_chat_completion);
 
     hserver.serve_forever()
 

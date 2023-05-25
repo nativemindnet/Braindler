@@ -35,8 +35,7 @@ def startThread(cid,args,queue):
     # TODO: Load from ai_setttings_{lang}
 
     #(ai_name, ai_role, ai_goals, api_budget)
-    args["goals"][0]=args["goals"][0]+"\n"
-    
+
     config=AIConfig("Braindler", "a large language model trained by NativeMind. I want you to act as an AI for autonomous automatic solving tasks.",args["goals"],0.0) 
     #config=generate_aiconfig_automatic(args["goals"][0])
     config.save(ai_settings) #CFG.ai_settings_file)

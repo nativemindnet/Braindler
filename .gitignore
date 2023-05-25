@@ -3,3 +3,4 @@ app/.env
 plugins/*
 vendor/
 sessions/*
+logs/*
