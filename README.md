@@ -1,4 +1,4 @@
-# Braindler: Internet-Enabled AI for Real-World Tasks, Goal Achievement, and Human Communication
+# Braindler: Personal AI assistants withi Internet-Enabled for Real-World Tasks, Goal Achievement and Human Communication
 [![Official Website](https://img.shields.io/badge/Official%20Website-braindler.com-blue?style=flat&logo=world&logoColor=white)](https://braindler.com)
 [![Twitter Follow](https://img.shields.io/twitter/follow/braindler?style=social)](https://twitter.com/Braindler)
 
